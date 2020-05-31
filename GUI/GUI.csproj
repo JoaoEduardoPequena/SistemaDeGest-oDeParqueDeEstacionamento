@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46C765F8-293C-4F9E-9D38-A4A58132EAB6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GUI</RootNamespace>
+    <AssemblyName>GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="FlashControlV71, Version=1.0.3187.32366, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmCadastrarNovasVaga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastrarNovasVaga.Designer.cs">
+      <DependentUpon>FrmCadastrarNovasVaga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastrarOcuparVagas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastrarOcuparVagas.Designer.cs">
+      <DependentUpon>FrmCadastrarOcuparVagas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastroClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastroClientes.Designer.cs">
+      <DependentUpon>FrmCadastroClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastroModeloCarro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastroModeloCarro.Designer.cs">
+      <DependentUpon>FrmCadastroModeloCarro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastroPatio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastroPatio.Designer.cs">
+      <DependentUpon>FrmCadastroPatio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastroUsuario.Designer.cs">
+      <DependentUpon>FrmCadastroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadastroVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadastroVeiculo.Designer.cs">
+      <DependentUpon>FrmCadastroVeiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.cs">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenuPrincipal.Designer.cs">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRelatrioVaga_E_EstadoVaga.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRelatrioVaga_E_EstadoVaga.Designer.cs">
+      <DependentUpon>FrmRelatrioVaga_E_EstadoVaga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmSaidasDeVeiculos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSaidasDeVeiculos.Designer.cs">
+      <DependentUpon>FrmSaidasDeVeiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RelatorioMultiplaTabela.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RelatorioMultiplaTabela.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <EmbeddedResource Include="FrmCadastrarNovasVaga.resx">
+      <DependentUpon>FrmCadastrarNovasVaga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastrarOcuparVagas.resx">
+      <DependentUpon>FrmCadastrarOcuparVagas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastroClientes.resx">
+      <DependentUpon>FrmCadastroClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastroModeloCarro.resx">
+      <DependentUpon>FrmCadastroModeloCarro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastroPatio.resx">
+      <DependentUpon>FrmCadastroPatio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastroUsuario.resx">
+      <DependentUpon>FrmCadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadastroVeiculo.resx">
+      <DependentUpon>FrmCadastroVeiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenuPrincipal.resx">
+      <DependentUpon>FrmMenuPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRelatrioVaga_E_EstadoVaga.resx">
+      <DependentUpon>FrmRelatrioVaga_E_EstadoVaga.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSaidasDeVeiculos.resx">
+      <DependentUpon>FrmSaidasDeVeiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RelatorioMultiplaTabela.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RelatorioMultiplaTabela.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagens_do_projecto\004_spreadsheet_document.png" />
+    <Content Include="Imagens_do_projecto\Back.ico" />
+    <Content Include="Imagens_do_projecto\Bar Chart.png" />
+    <Content Include="Imagens_do_projecto\Box_Empty.png" />
+    <Content Include="Imagens_do_projecto\Box_Full.png" />
+    <Content Include="Imagens_do_projecto\Cad Usuarios.png" />
+    <Content Include="Imagens_do_projecto\Cad Usuarios1.png" />
+    <Content Include="Imagens_do_projecto\Cad Usuarios48.png" />
+    <Content Include="Imagens_do_projecto\Capturar1 - Cópia.JPG" />
+    <Content Include="Imagens_do_projecto\Capturar1.JPG" />
+    <Content Include="Imagens_do_projecto\dllme.txt" />
+    <Content Include="Imagens_do_projecto\EcoEsport.jpg" />
+    <Content Include="Imagens_do_projecto\edit.png" />
+    <Content Include="Imagens_do_projecto\Error.png" />
+    <Content Include="Imagens_do_projecto\Exit.ico" />
+    <Content Include="Imagens_do_projecto\Exit.png" />
+    <Content Include="Imagens_do_projecto\Exit1.png" />
+    <Content Include="Imagens_do_projecto\FiatUno_Economy.jpg" />
+    <Content Include="Imagens_do_projecto\Ford Hatch.jpg" />
+    <Content Include="Imagens_do_projecto\Gol.jpg" />
+    <Content Include="Imagens_do_projecto\Honda City.jpg" />
+    <Content Include="Imagens_do_projecto\images.jpeg" />
+    <Content Include="Imagens_do_projecto\images2.jpeg" />
+    <Content Include="Imagens_do_projecto\images3.jpeg" />
+    <Content Include="Imagens_do_projecto\images4.jpeg" />
+    <Content Include="Imagens_do_projecto\kate - Cópia.png" />
+    <Content Include="Imagens_do_projecto\kate.png" />
+    <Content Include="Imagens_do_projecto\kchart.png" />
+    <Content Include="Imagens_do_projecto\kdict.png" />
+    <Content Include="Imagens_do_projecto\kedit.png" />
+    <Content Include="Imagens_do_projecto\klpq.png" />
+    <Content Include="Imagens_do_projecto\korganizer.png" />
+    <Content Include="Imagens_do_projecto\Modify 64.png" />
+    <Content Include="Imagens_do_projecto\Modify.png" />
+    <Content Include="Imagens_do_projecto\MySql.Data.DLL" />
+    <Content Include="Imagens_do_projecto\Next.ico" />
+    <Content Include="Imagens_do_projecto\Package.png" />
+    <Content Include="Imagens_do_projecto\package_settings2.png" />
+    <Content Include="Imagens_do_projecto\Palio Punto.jpg" />
+    <Content Include="Imagens_do_projecto\Pen.png" />
+    <Content Include="Imagens_do_projecto\Preview Docment.png" />
+    <Content Include="Imagens_do_projecto\Print.png" />
+    <Content Include="Imagens_do_projecto\Sair do Sistema.png" />
+    <Content Include="Imagens_do_projecto\Save.ico" />
+    <Content Include="Imagens_do_projecto\Security2.png" />
+    <Content Include="Imagens_do_projecto\user2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{9053d099-dc3f-4566-9aa1-09bbdfc411c4}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{7d841bfd-721d-42a5-9fec-93d9e8f3d5a1}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{6940594b-189f-4466-bb79-5fc1f378c01a}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

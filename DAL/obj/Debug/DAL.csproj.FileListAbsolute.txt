@@ -1,0 +1,6 @@
+C:\Users\Joao Eduardo\Documents\Visual Studio 2012\Projects\PARQUE_ESTACIONAMENTO_VEICULO\DAL\bin\Debug\DAL.dll
+C:\Users\Joao Eduardo\Documents\Visual Studio 2012\Projects\PARQUE_ESTACIONAMENTO_VEICULO\DAL\bin\Debug\DAL.pdb
+C:\Users\Joao Eduardo\Documents\Visual Studio 2012\Projects\PARQUE_ESTACIONAMENTO_VEICULO\DAL\bin\Debug\MySql.Data.DLL
+C:\Users\Joao Eduardo\Documents\Visual Studio 2012\Projects\PARQUE_ESTACIONAMENTO_VEICULO\DAL\obj\Debug\DAL.dll
+C:\Users\Joao Eduardo\Documents\Visual Studio 2012\Projects\PARQUE_ESTACIONAMENTO_VEICULO\DAL\obj\Debug\DAL.pdb
+C:\Users\Joao Eduardo\Documents\Visual Studio 2012\Projects\PARQUE_ESTACIONAMENTO_VEICULO\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache

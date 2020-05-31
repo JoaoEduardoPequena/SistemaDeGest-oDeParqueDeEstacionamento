@@ -1,0 +1,5 @@
+C:\Users\Joao Eduardo\Documents\Visual Studio 2012\Projects\PARQUE_ESTACIONAMENTO_VEICULO\DTO\bin\Debug\DTO.dll
+C:\Users\Joao Eduardo\Documents\Visual Studio 2012\Projects\PARQUE_ESTACIONAMENTO_VEICULO\DTO\bin\Debug\DTO.pdb
+C:\Users\Joao Eduardo\Documents\Visual Studio 2012\Projects\PARQUE_ESTACIONAMENTO_VEICULO\DTO\obj\Debug\DTO.dll
+C:\Users\Joao Eduardo\Documents\Visual Studio 2012\Projects\PARQUE_ESTACIONAMENTO_VEICULO\DTO\obj\Debug\DTO.pdb
+C:\Users\Joao Eduardo\Documents\Visual Studio 2012\Projects\PARQUE_ESTACIONAMENTO_VEICULO\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
